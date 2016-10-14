@@ -1,0 +1,223 @@
+{
+  "pageNumber": 0,
+  "pageCount": 2,
+  "nextPage": 1,
+  "pageSize": 100,
+  "transactions": {
+    "0": {
+      "accountParty": {
+        "accountNumber": "2812275553",
+        "bankCode": "0800",
+        "bic": "GIBACZPX",
+        "iban": "CZ2208000011850554023124",
+        "partyInfo": "Petr Malý",
+        "partyDescription": "2812275553/0800"
+      },
+      "amount": {
+        "currency": "CZK",
+        "precision": 0,
+        "value": 1000
+      },
+      "amountSender": {
+        "precision": 0,
+        "value": -1.0
+      },
+      "bookingDate": "2016-10-15T00:10:05",
+      "cardNumber": 0,
+      "constantSymbol": "0558",
+      "description": "úhrada z ČS, a.s.",
+      "descriptionEditable": false,
+      "id": "I141126DXHZ3T",
+      "payeeNote": "díky za půjčení",
+      "specificSymbol": "55",
+      "transactionType": "54",
+      "valuationDate": "2016-10-15T00:10:05",
+      "variableSymbol": "86689"
+    },
+    "1": {
+      "accountParty": {
+        "accountNumber": "2812275553",
+        "accountPrefix": "35",
+        "bankCode": "0800",
+        "bic": "GIBACZPX",
+        "iban": "CZ2208000011850554023124",
+        "partyInfo": "na účet v ČS, a.s.",
+        "partyDescription": "35-2812275553/0800"
+      },
+      "amount": {
+        "currency": "CZK",
+        "precision": 0,
+        "value": -1500.0
+      },
+      "amountSender": {
+        "precision": 0,
+        "value": -1.0
+      },
+      "bookingDate": "2016-10-14T00:10:05",
+      "cardNumber": 0,
+      "constantSymbol": "0558",
+      "description": "trvalá platba 18",
+      "descriptionEditable": false,
+      "id": "I141126DXHZ3T",
+      "payeeNote": "číslo smlouvy:1200053",
+      "payerNote": "elektřina",
+      "specificSymbol": "55",
+      "transactionType": "54",
+      "valuationDate": "2016-10-14T00:10:05",
+      "variableSymbol": "1200053"
+    },
+    "2": {
+      "accountParty": {
+        "accountNumber": "1233214554",
+        "accountPartyDescription": "1233214554/0800",
+        "accountPartyInfo": "Servis 24 / IB",
+        "bankCode": "0800",
+        "bic": "GIBACZPX",
+        "iban": "CZ8108000000000524736369"
+      },
+      "additionalTexts": {
+        "text1": "Household expenses",
+        "text2": "Food",
+        "text3": "Celebration"
+      },
+      "amount": {
+        "currency": "CZK",
+        "precision": 2,
+        "value": -325000.0
+      },
+      "amountSender": {
+        "currency": "CZK",
+        "precision": 2,
+        "value": 401710
+      },
+      "bookingDate": "2016-10-13T00:10:05",
+      "bookingType": "",
+      "cardNumber": 0,
+      "constantSymbol": "1281",
+      "currRateEURDate": "2016-10-15T00:10:05",
+      "currRateEURValue": "24,1",
+      "description": "domácí platba",
+      "descriptionEditable": false,
+      "id": "208988",
+      "payeeNote": "rezervace, Tonda Paleček",
+      "payerNote": "rezervace hotelu",
+      "paymentReference": "",
+      "role": "RECEIVER",
+      "senderName": "Tonda Paleček",
+      "state": {
+        "value": "accountQueryAllowed"
+      },
+      "timestampId": "1427269185673",
+      "transactionType": "",
+      "valuationDate": "2016-10-13T00:10:05",
+      "variableSymbol": "12345671"
+    },
+    "3": {
+      "accountParty": {
+        "accountNumber": "2812275553",
+        "bankCode": "0800",
+        "bic": "GIBACZPX",
+        "iban": "CZ2208000011850554023124",
+        "partyInfo": "na účet v jiné bance",
+        "partyDescription": "2812275553/0800"
+      },
+      "amount": {
+        "currency": "CZK",
+        "precision": 0,
+        "value": -2508.0
+      },
+      "amountSender": {
+        "precision": 0,
+        "value": -1.0
+      },
+      "bookingDate": "2016-10-12T00:10:05",
+      "cardNumber": 0,
+      "constantSymbol": "0558",
+      "description": "trvalá platba 21",
+      "descriptionEditable": false,
+      "id": "I141126DXHZ3T",
+      "payerNote": "platba za plyn",
+      "specificSymbol": "55",
+      "transactionType": "54",
+      "valuationDate": "2016-10-12T00:10:05",
+      "variableSymbol": "4569519"
+    },
+    "4": {
+      "accountParty": {
+        "accountNumber": "2812275553",
+        "accountPrefix": "124",
+        "bankCode": "1800",
+        "bic": "GIBACZPX",
+        "iban": "CZ2208000011850554023124",
+        "partyInfo": "Zaměstnavatel roku a.s.",
+        "partyDescription": "124-2812275553/1800"
+      },
+      "amount": {
+        "currency": "CZK",
+        "precision": 0,
+        "value": 25231
+      },
+      "amountSender": {
+        "precision": 0,
+        "value": -1.0
+      },
+      "bookingDate": "2016-10-11T00:10:05",
+      "cardNumber": 0,
+      "constantSymbol": "0558",
+      "description": "mzda / spoření",
+      "descriptionEditable": false,
+      "id": "I141126DXHZ3T",
+      "specificSymbol": "55",
+      "transactionType": "54",
+      "valuationDate": "2016-10-11T00:10:05",
+      "variableSymbol": "9"
+    },
+    "5": {
+      "accountParty": {
+        "accountNumber": "321520145",
+        "accountPartyDescription": "125-321520145/0521",
+        "accountPartyInfo": "Servis 24 / IB",
+        "accountPrefix": "125",
+        "bankCode": "0521",
+        "bic": "GIBACZPX",
+        "iban": "CZ8108000000000524736369"
+      },
+      "additionalTexts": {
+        "text1": "Household expenses",
+        "text2": "Food",
+        "text3": "Celebration"
+      },
+      "amount": {
+        "currency": "CZK",
+        "precision": 2,
+        "value": -1500000.0
+      },
+      "amountSender": {
+        "currency": "CZK",
+        "precision": 2,
+        "value": 609170
+      },
+      "bookingDate": "2016-10-15T02:10:05",
+      "bookingType": "",
+      "cardNumber": 0,
+      "constantSymbol": "1230",
+      "currRateEURDate": "2016-10-15T02:10:05",
+      "currRateEURValue": "24,7",
+      "description": "domácí platba",
+      "descriptionEditable": false,
+      "id": "201613",
+      "payeeNote": "jméno:Tonda Paleček",
+      "payerNote": "Záloha na hory",
+      "paymentReference": "",
+      "role": "RECEIVER",
+      "senderName": "Lenka Spořitelní",
+      "state": {
+        "value": "accountQueryAllowed"
+      },
+      "timestampId": "1427269185678",
+      "transactionType": "",
+      "valuationDate": "2016-10-15T02:10:05",
+      "variableSymbol": "123456134"
+    }
+  }
+}

@@ -1,18 +1,33 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+
 import './App.css';
+import TransactionDetail from './TransactionDetail';
+import { getTransactions } from './services/api';
 
 class App extends Component {
+
+  constructor() {
+    super();
+    this.state = {
+      transactions: []
+    };
+  }
+
+  componentDidMount() {
+    getTransactions()
+      .then(( { transactions }) => this.setState({ transactions: transactions }));
+  }
+
   render() {
+    const { transactions } = this.state;
     return (
       <div className="App">
         <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to React</h2>
+          <h2>IB - Transaction Context</h2>
         </div>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+        {transactions && Object.keys(transactions).map(key =>
+          <TransactionDetail key={key} transaction={transactions[key]}/>
+        )}
       </div>
     );
   }
